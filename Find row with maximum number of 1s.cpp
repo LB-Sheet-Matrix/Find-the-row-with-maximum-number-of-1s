@@ -19,7 +19,7 @@ Most efficient approach:
 
 Instead of doing binary search in every row, we first check whether the row has more 1s than max so far. 
 If the row has more 1s, then only count 1s in the row. 
-Also, to count 1s in a row, we don’t do binary search in complete row, we do search in before the index of last max.
+Also, to count 1s in a row, we donâ€™t do binary search in complete row, we do search in before the index of last max.
 
 TC: O(r*Log(c)) 
 SC => O(1) (iterative BS use kiya)
@@ -27,9 +27,6 @@ SC => O(1) (iterative BS use kiya)
 HERE I HAVE USED 2nd APPROACH:
 
 */
-
-//ISSUES:
-//use vetors and Dymanic allocation karo vector ka
 
 #include<iostream>
 //#include<algorithm>
